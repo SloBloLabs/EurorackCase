@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name EurorackPowerComponents)(type Legacy)(uri ${KIPRJMOD}/EurorackPowerComponents.lib)(options "")(descr ""))
-)
