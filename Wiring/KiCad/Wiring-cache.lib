@@ -1,0 +1,97 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_Fuse
+#
+DEF Device_Fuse F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "Device_Fuse" -75 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# EurorackPowerComponents_LowNoisePowerBoard
+#
+DEF EurorackPowerComponents_LowNoisePowerBoard B 0 40 Y Y 1 F N
+F0 "B" 0 200 50 H V C CNN
+F1 "EurorackPowerComponents_LowNoisePowerBoard" 0 300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 100 150 -300 0 1 0 f
+X +12V ~ -250 50 100 R 50 50 1 1 P
+X -12V ~ -250 -250 100 R 50 50 1 1 P
+X Earth ~ -250 -50 100 R 50 50 1 1 P
+X GND ~ -250 -150 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# EurorackPowerComponents_Meanwell-LRS-35-12
+#
+DEF EurorackPowerComponents_Meanwell-LRS-35-12 MW 0 40 Y Y 1 F N
+F0 "MW" 0 350 50 H V C CNN
+F1 "EurorackPowerComponents_Meanwell-LRS-35-12" 0 450 50 H V C CNN
+F2 "" 0 -100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+DRAW
+S -300 150 300 -150 0 1 0 f
+X +V ~ 200 250 100 D 50 50 1 1 P
+X -V ~ 100 250 100 D 50 50 1 1 P
+X Earth ~ 0 250 100 D 50 50 1 1 P
+X L ~ -200 250 100 D 50 50 1 1 P
+X N ~ -100 250 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# EurorackPowerComponents_ParallelSwitch
+#
+DEF EurorackPowerComponents_ParallelSwitch SW 0 40 Y Y 1 F N
+F0 "SW" 0 200 50 H V C CNN
+F1 "EurorackPowerComponents_ParallelSwitch" 0 300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 125 100 -125 0 1 0 f
+P 2 0 1 0 -25 -200 25 -200 N
+P 2 0 1 0 0 -175 0 -200 N
+P 2 0 1 0 0 -75 0 -100 N
+P 2 0 1 0 0 -25 0 -50 N
+P 2 0 1 0 0 25 0 0 N
+P 2 0 1 0 0 75 0 50 N
+P 2 0 1 0 50 -50 100 -50 N
+P 2 0 1 0 100 50 50 50 N
+P 3 0 1 0 -100 -50 -50 -50 50 0 N
+P 3 0 1 0 -100 50 -50 50 50 100 N
+P 3 0 1 0 0 -125 25 -150 0 -175 N
+X ~ 1 -200 50 100 R 50 50 1 1 P
+X ~ 2 -200 -50 100 R 50 50 1 1 P
+X ~ 3 200 50 100 L 50 50 1 1 P
+X ~ 4 200 -50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# EurorackPowerComponents_PowerPlug
+#
+DEF EurorackPowerComponents_PowerPlug P 0 40 Y Y 1 F N
+F0 "P" 0 200 50 H V C CNN
+F1 "EurorackPowerComponents_PowerPlug" 0 300 50 H V C CNN
+F2 "" 100 0 50 H I C CNN
+F3 "" 100 0 50 H I C CNN
+DRAW
+S -50 150 50 -150 0 1 0 f
+X Earth ~ 0 100 100 L 50 50 1 1 P
+X L ~ 0 -100 100 L 50 50 1 1 P
+X N ~ 0 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
