@@ -12,6 +12,8 @@ Get the rails [here][1] and threaded strips [here][2]. You need 2x 104HP(528,32m
 
 Watch the related [video] on Youtube for a detailed tutorial.
 
+[![DIY Eurorack Case](https://img.youtube.com/vi/7tzhh7atj4o/0.jpg)](https://www.youtube.com/watch?v=7tzhh7atj4o)
+
 [1]: https://gie-tec.de/produkt/19-zoll-traegerprofil1/
 [2]: https://gie-tec.de/produkt/gewindestreifen/
 [video]: https://youtu.be/7tzhh7atj4o
